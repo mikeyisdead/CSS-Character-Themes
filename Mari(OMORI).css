@@ -4,7 +4,7 @@ td {
     background-color: rgba(255, 255, 255, 0.77);
     border: 4px solid;
     border-radius: 10px;
-font-size: small;
+    font-size: small;
 }
 table {
     border-collapse: separate;
@@ -57,7 +57,7 @@ body {
     font-family: courier;
     text-align: center;
     background: transparent;
-font-size: large;
+    font-size: large;
 }
 .boxHead {
     background-color: transparent;
@@ -65,7 +65,7 @@ font-size: large;
     padding: 3px;
     padding-bottom: 4px;
     padding-left: 6px;
-font-size: medium
+    font-size: medium
 }
 p {
     margin: 0;
@@ -179,31 +179,31 @@ div#header {
 h4 {
     color: #63449c;
     margin-bottom: 5px;
-text-align: center;
+    text-align: center;
 }
 #sMsg {
     background-image: url(https://media.giphy.com/media/DYcRLiwAibumFhEtEp/giphy.gif);
     background-size: 23%;
-font-size: large;
-text-align: left;
+    font-size: large;
+    text-align: left;
 }
 #block {
-display: none;
+    display: none;
 }
 #report {
-display: none;
+    display: none;
 }
 #add {
     background-image: url(https://media.giphy.com/media/DYcRLiwAibumFhEtEp/giphy.gif);
     background-size: 23%;
-font-size: medium;
-text-align: left;
+    font-size: medium;
+    text-align: left;
 }
 #remove {
     background-image: url(https://media.giphy.com/media/DYcRLiwAibumFhEtEp/giphy.gif);
     background-size: 23%;
-font-size: medium;
-text-align: left;
+    font-size: medium;
+    text-align: left;
 }
 .fwiendCount {
     color: #a08bc7;
@@ -214,21 +214,21 @@ text-align: left;
     margin-bottom: 10px;
 }
 .extended {
-font-color: #3a0f8a;
+    font-color: #3a0f8a;
     background-color: rgba(255, 255, 255, 0.77);
     border: 4px solid #3a0f8a;
     padding: 3px 3px;
     border-radius: 10px;
     margin-bottom: 20px;
     margin-top: 15px;
-font-family: courier;
+    font-family: courier;
 }
 #add {
   text-indent: -9999px;
   line-height: 0;
 }
 #add::after {
-  content: "friends?";
+  content: "friend";
   text-indent: 0;
   display: block;
   line-height: initial;
@@ -248,7 +248,7 @@ font-family: courier;
   line-height: 0;
 }
 #country::after {
-  content: "HeadSpace";
+  content: "Head Space";
   text-indent: 0;
   display: block;
   line-height: initial;
@@ -270,31 +270,29 @@ font-family: courier;
     opacity: 1;
 }
 div.box.fwiends {
-font-color: #3a0f8a;
+    font-color: #3a0f8a;
     background-color: rgba(255, 255, 255, 0.77);
     border: 4px solid #3a0f8a;
     padding: 3px 3px;
     border-radius: 10px;
     margin-bottom: 20px;
     margin-top: 15px;
-font-family: courier;
+    font-family: courier;
 }
 .fwiendFace b {
     color: #3a0f8a;
     overflow: hidden;
 }
 .fwiendFace img {
-border: 4xp solid #ffffff
-background-position: center;
-border-radius: 100px;
-height: 100px;
-object-fit: cover;
-width: 100xp;
-border-width: 2xp;
-border-color: #ffffff
+    border: 4xp solid #3a0f8a;
+    background-position: center;
+    border-radius: 100px;
+    height: 100px;
+    object-fit: cover;
+    width: 100xp;
+    border-width: 2xp;
 }
 .topRight > .blurbs.box > .blogs > div > b::after {
-    font-size: 20px !Important;
     font-size: 20px !Important;
     content: "Sheet Music";
     animation: test 1s linear infinite;
@@ -333,7 +331,7 @@ border-color: #ffffff
     font-size: 0;
 }
 .blurbs.box > .rightHead > b > span.uName::after {
-    content: "Picnis can be held anywhere!";
+    content: "Have a picnic with your friends?";
     color: rgba(58, 15, 138);
     font-size: 20px;
 }
@@ -394,8 +392,6 @@ div.topLeft::after {
     border-radius: 10px;
 }
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur267.cur), auto !important;} /* End https://www.cursors-4u.com */
-
-/* mouse over link */
 a:hover {
   color: lavender !important;
 }
