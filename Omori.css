@@ -1,0 +1,380 @@
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    border: 6px double;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.80);
+    font-size: small;
+}
+img#avatar.avatar {
+    border-radius: 100px;
+}
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+    color: black;
+    border-radius: 50px;
+}
+body {
+    background-color: #ededed;
+    font-family:  Times New Roman, serif;
+    padding-top: 45px;
+    font-size: small;
+    font-color: black;
+    cursor: grab;
+}
+.blurbs {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    border: 6px double;
+    border-color: black;
+    text-color: black;
+    border-radius: 50px;
+}
+.player {
+    padding: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.80);
+    color: black;
+    width: calc(100% - 10px );
+    border: 6px double;
+    border-color: black;
+    border-radius: 50px;
+}
+.player::before {
+    content: "";
+    display: block;
+    position: relative;
+    width: calc(40% -20px);
+    height: 350px;
+    max-width: 400px;
+    background-position: 0 0;
+    background-size: cover;
+    background-image: url(https://static.wikia.nocookie.net/omori/images/5/5a/WHITESPACE_ITEMS.gif/revision/latest/scale-to-width-down/250?cb=20180428092958);
+}
+.rightHead {
+    color: black;
+    padding-left: 4px;
+    font-family: Times New Roman, serif;
+    text-align: center;
+    background: transparent;
+    font-size: medium;
+}
+.boxHead {
+    background-color: transparent;
+    color: black;
+    padding: 3px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    font-size: medium;
+}
+p {
+    margin: 0;
+    color: black;
+    font-family: Times New Roman, serif;
+}
+div {
+    display: block;
+    text-align: center;
+    font-family: Times New Roman, serif;
+}
+.boxInfo {
+    border: 6px double black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.80);
+    border-radius: 50px;
+}
+#country {
+  text-indent: -9999px;
+  line-height: 0;
+}
+#country::after {
+  content: "White Space";
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+}
+div {
+    display: block;
+    text-align: center;
+    font-family: Times New Roman, serif;
+}
+.boxInfo {
+    border: 6px double black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.80);
+    border-radius: 50px;
+}
+.blog {
+    background-color: rgba(255, 255, 255, 0.80);
+    padding: 15px;
+    border: 6px double black;
+    border-radius: 50px;
+}
+.boxButton {
+    display: inline-block;
+    width: calc( 49% - 60px );
+    padding-left: 30px;
+    height: 24px;
+    font-size: small;
+    color: black;
+    padding-top: 7px;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: black;
+}
+div#hSub {
+    text-color: black;
+    background-color: rgba(255, 255, 255, 0.80);
+    font-size: small;
+    margin-top: 10px;
+    position: absolute;
+    border: 6px double black;
+    border-radius: 50px;
+    white-space: wrap;
+    text-align: right;
+}
+div#header {
+    text-color: black;
+    background-color: rgba(255, 255, 255, .80);
+    font-size: small;
+    margin-top: 10px;
+    position: absolute;
+    border: 6px double black;
+    border-radius: 50px;
+    border-bottom: none;
+    text-align: left;
+}
+.tableLeft {
+    background-color: rgba(255, 255, 255, 0.80);
+    width: 20%;
+    padding: 10px;
+    vertical-align: top;
+    overflow: hidden;
+}
+.tableRight {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.80);
+    padding: 10px;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+}
+.tableLeft > a > div {
+    overflow: hidden;
+    color: black;
+    max-width: 115px;
+    text-align: center;
+}
+.logo b span {
+    display: none;
+}
+.logo::after{
+    content:"Welcome to White Space...";
+    line-height: 10px;
+    font-size: 20px;
+    padding: 70px;
+    vertical-align: center;
+    font-family: Times New Roman, serif;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0px 0px 3px grey;
+}
+.fwiendFace {
+    max-width: 25%;
+    display: inline-grid;
+    width: calc( 24% - 6px );
+    padding: 3px;
+    text-align: center;
+
+}
+a:-webkit-any-link {
+    color: grey;
+    text-decoration: none;
+}
+h4 {
+    color: black;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#sMsg {
+    background-image: url(https://media.giphy.com/media/dYrYTpZIDtMLvaaiMv/giphy.gif);
+    background-size: 23%;
+    font-size: small;
+    text-align: left;
+}
+#block {
+    display: none;
+}
+#report {
+    display: none;
+}
+#add {
+    background-image: url(https://media.giphy.com/media/dYrYTpZIDtMLvaaiMv/giphy.gif);
+    background-size: 23%;
+    font-size: small;
+    text-align: left;
+}
+#remove {
+    background-image: url(https://media.giphy.com/media/dYrYTpZIDtMLvaaiMv/giphy.gif);
+    background-size: 23%;
+    font-size: small;
+    text-align: left;
+}
+.fwiendCount {
+    color: grey;
+}
+.blogs div, .blog div {
+    font-family: Times New Roman, serif;
+    color: black;
+    margin-bottom: 10px;
+}
+.extended {
+    font-color: black;
+    background-color: rgba(255, 255, 255, 0.80);
+    border: 6px double black;
+    padding: 3px 3px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-family: Times New Roman, serif;
+}
+#add {
+  text-indent: -9999px;
+  line-height: 0;
+}
+#add::after {
+  content: "friend";
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+}
+#sMsg {
+  text-indent: -9999px;
+  line-height: 0;
+}
+#sMsg::after {
+  content: "msg";
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+}
+.url {
+    background: url(https://i.imgur.com/VHa1Lk1.gif) no-repeat;
+    position: fixed;
+    right: 0;
+    bottom: 0px;
+    color: #ffffff00;
+    background-size: 100% 100%;
+    height: 200px;
+    width: 200px;
+    border: none;
+    box-shadow: none;
+    filter: drop-shadow(8px 9px 15px #00000044);
+    z-index: 1000;
+    font-size: 0px;
+    opacity: 1;
+}
+div.box.fwiends {
+    font-color: black;
+    background-color: rgba(255, 255, 255, 0.88);
+    border: 6px double black;
+    padding: 3px 3px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-family: Times New Roman, serif;
+}
+.fwiendFace b {
+    color: black;
+    overflow: hidden;
+}
+.fwiendFace img {
+  border: 4px double black;
+  background-position: center;
+  border-radius: 100px;
+  height: 100px;
+  object-fit: cover;
+  width: 100xp;
+  border-width: 2xp;
+}
+#hSub a {
+    color: black;
+    text-shadow: 0px 0px 3px grey;
+}
+#hSub a:hover {
+    text-shadow: 1px 1px red;
+}
+a:hover {
+    text-shadow: 1px 1px red;
+}
+textarea#commentInput {
+    background-color: rgba(255, 255, 255, 0.80);
+    border: 6px double black;
+    padding: 3px 3px;
+    border-radius: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.topRight > .box:not(.blurbs) > .rightHead {
+    display: none;
+}
+.topRight > .box:not(.blurbs) > .rightHead > b > span.uName {
+    font-size: -9999px;
+}
+.topRight > .box:not(.blurbs) > .rightHead > b {
+    font-size: 0;
+}
+.blurbs.box > .rightHead > b > span.uName::after {
+    content: "Waiting for something to happen...?";
+    color: black;
+    font-size: medium;
+}
+.blurbs.box > .rightHead > b {
+    font-size: 0px;
+}
+.blurbs.box > .rightHead > b > span.uName {
+    font-size: 0px;
+    color: #000000;
+}
+.topRight > .blurbs.box > .blogs > div > b::after {
+    font-size: medium !Important;
+    content: "You've lived here as long as you can remember...";
+}
+.topRight > .blurbs.box > .blogs > div > b {
+    font-size: 0px !Important;
+}
+#header a:not(.logo) {
+    margin-left: 10px;
+    color: black;
+    font-size: small;
+    text-decoration: underline;
+    font-family: Times New Roman, serif;
+    text-shadow: 0px 0px 3px grey;
+}
+#header a:not(.logo):hover {
+    text-shadow: 1px 1px red;
+}
+h2#name.uName {
+    color: black;
+    font-family: Times New Roman, serif;
+    background-color: rgba(255, 255, 255, 0.80);
+    border: 6px double black;
+    padding: 3px 3px;
+    border-radius: 50px;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
