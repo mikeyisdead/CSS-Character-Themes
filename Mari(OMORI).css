@@ -1,0 +1,405 @@
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    background-color: rgba(255, 255, 255, 0.77);
+    border: 4px solid;
+    border-radius: 10px;
+font-size: small;
+}
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+    color: #3a0f8a;
+    border-radius: 10px;
+}
+body {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/569/127/743/omori-pixel-art-hd-wallpaper-preview.jpg);
+    font-family: courier;
+    padding-top: 45px;
+    font-size: medium;
+    font-color: white;
+}
+.blurbs {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.77);
+    text-align: center;
+    border: 4px solid;
+    border-color: #3a0f8a;
+    text-color: #3a0f8a;
+    border-radius: 10px;
+}
+.player {
+    padding: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.77);
+    color: #3a0f8a;
+    width: calc(100% - 10px );
+    border: 4px solid #999;
+    border-color: #3a0f8a;
+    border-radius: 10px;
+}
+.player::before {
+    content: "";
+    display: block;
+    position: relative;
+    width: calc(40% -20px);
+    height: 350px;
+    max-width: 390px;
+    background-position: 0 0;
+    background-size: cover;
+    background-image: url(https://64.media.tumblr.com/d74da4341bb10b3f7eda3d4ca65e9148/tumblr_psyhkkUsIh1qegob8o1_500.jpg);
+}
+.rightHead {
+    color: #3a0f8a;
+    padding-left: 4px;
+    font-family: courier;
+    text-align: center;
+    background: transparent;
+font-size: large;
+}
+.boxHead {
+    background-color: transparent;
+    color: #3a0f8a;
+    padding: 3px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+font-size: medium
+}
+p {
+    margin: 0;
+    color: #3a0f8a;
+    font-family: courier;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    border: 4px solid;
+    color: #3a0f8a;
+    background-color: rgba(255, 255, 255, 0.77);
+    font-family: courier;
+    text-align: center;
+    border-radius: 10px;
+}
+div {
+    display: block;
+    text-align: center;
+    font-family: courier;
+}
+.boxInfo {
+    border: 4px solid #3a0f8a;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.77);
+    border-radius: 10px;
+}
+.blog {
+    background-color: rgba(255, 255, 255, 0.77);
+    padding: 15px;
+    border: solid;
+    border-color: #3a0f8a;
+    border-radius: 10px;
+}
+.boxButton {
+    display: inline-block;
+    width: calc( 49% - 60px );
+    padding-left: 30px;
+    height: 24px;
+    font-size: medium;
+    color: #3a0f8a;
+    padding-top: 7px;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #3a0f8a;
+}
+div#hSub {
+    background-color: rgba(58, 15, 138, 0.77);
+    text-align: center;
+    font-family: courier;
+    color: transparent;
+}
+div#header {
+    background-color: rgba(58, 15, 138, 0.77);
+    text-align: center;
+}
+.tableLeft {
+    background-color: rgba(255, 255, 255, 0.77);
+    width: 20%;
+    padding: 10px;
+    vertical-align: top;
+    overflow: hidden;
+}
+.tableRight {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.77);
+    padding: 10px;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+}
+.tableLeft > a > div {
+    overflow: hidden;
+    color: #3a0f8a;
+    max-width: 115px;
+    text-align: center;
+}
+.logo b span {
+    display: none;
+}
+.logo::after{
+    content:"Face your fears, little brother!";
+    line-height: 10px;
+    font-size: 20px;
+    padding: 70px;
+    vertical-align: center;
+    font-family: courier;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0px 0px 3px #ffffff;
+}
+.fwiendFace {
+    max-width: 25%;
+    display: inline-grid;
+    width: calc( 24% - 6px );
+    padding: 3px;
+    text-align: center;
+}
+h4 {
+    color: #63449c;
+    margin-bottom: 5px;
+text-align: center;
+}
+#sMsg {
+    background-image: url(https://media.giphy.com/media/DYcRLiwAibumFhEtEp/giphy.gif);
+    background-size: 23%;
+font-size: large;
+text-align: left;
+}
+#block {
+display: none;
+}
+#report {
+display: none;
+}
+#add {
+    background-image: url(https://media.giphy.com/media/DYcRLiwAibumFhEtEp/giphy.gif);
+    background-size: 23%;
+font-size: medium;
+text-align: left;
+}
+#remove {
+    background-image: url(https://media.giphy.com/media/DYcRLiwAibumFhEtEp/giphy.gif);
+    background-size: 23%;
+font-size: medium;
+text-align: left;
+}
+.fwiendCount {
+    color: #a08bc7;
+}
+.blogs div, .blog div {
+    font-family: courier;
+    color: #3a0f8a;
+    margin-bottom: 10px;
+}
+.extended {
+font-color: #3a0f8a;
+    background-color: rgba(255, 255, 255, 0.77);
+    border: 4px solid #3a0f8a;
+    padding: 3px 3px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+font-family: courier;
+}
+#add {
+  text-indent: -9999px;
+  line-height: 0;
+}
+#add::after {
+  content: "friends?";
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+}
+#sMsg {
+  text-indent: -9999px;
+  line-height: 0;
+}
+#sMsg::after {
+  content: "dm";
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+}
+#country {
+  text-indent: -9999px;
+  line-height: 0;
+}
+#country::after {
+  content: "HeadSpace";
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+}
+.url {
+    background: url(https://media.giphy.com/media/lp2LCwKJJ9GJsTkSay/giphy.gif) no-repeat;
+    position: fixed;
+    right: 0;
+    bottom: 0px;
+    color: #ffffff00;
+    background-size: 100% 100%;
+    height: 200px;
+    width: 200px;
+    border: none;
+    box-shadow: none;
+    filter: drop-shadow(8px 9px 15px #00000044);
+    z-index: 1000;
+    font-size: 0px;
+    opacity: 1;
+}
+div.box.fwiends {
+font-color: #3a0f8a;
+    background-color: rgba(255, 255, 255, 0.77);
+    border: 4px solid #3a0f8a;
+    padding: 3px 3px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+font-family: courier;
+}
+.fwiendFace b {
+    color: #3a0f8a;
+    overflow: hidden;
+}
+.fwiendFace img {
+border: 4xp solid #ffffff
+background-position: center;
+border-radius: 100px;
+height: 100px;
+object-fit: cover;
+width: 100xp;
+border-width: 2xp;
+border-color: #ffffff
+}
+.topRight > .blurbs.box > .blogs > div > b::after {
+    font-size: 20px !Important;
+    font-size: 20px !Important;
+    content: "Sheet Music";
+    animation: test 1s linear infinite;
+}
+.topRight > .blurbs.box > .blogs > div > b {
+    font-size: 0px !Important;
+}
+#viewFriends {
+    display: none;
+}
+.fwiendCounter>b::after {
+    content: " Audience Members";
+    color: rgba(58, 15, 138);
+    font-size: 15px;
+}
+.fwiendCount {
+    font-size: 15px;
+}
+.fwiendCounter>b {
+    font-size: 0px;
+    color: #ffffff;
+}
+.fwiendCounter>b>.uName {
+    font-size: 0px;
+    color: #000000;
+}
+.topRight > .box:not(.blurbs) > .rightHead > b::after {
+    content: "The Auditorium";
+    color: rgba(58, 15, 138);
+    font-size: 20px;
+}
+.topRight > .box:not(.blurbs) > .rightHead > b > span.uName {
+    font-size: -9999px;
+}
+.topRight > .box:not(.blurbs) > .rightHead > b {
+    font-size: 0;
+}
+.blurbs.box > .rightHead > b > span.uName::after {
+    content: "Picnis can be held anywhere!";
+    color: rgba(58, 15, 138);
+    font-size: 20px;
+}
+.blurbs.box > .rightHead > b {
+    font-size: 0px;
+}
+.blurbs.box > .rightHead > b > span.uName {
+    font-size: 0px;
+    color: #000000;
+}
+img#avatar.avatar {
+    border-radius: 100%;
+}
+body {
+    -webkit-animation: fadeIn ease 3s;
+}
+
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+#hSub a {
+    color: #ffffff;
+    text-shadow: 0px 0px 3px white;
+}
+
+#hSub a:hover {
+    text-shadow: 1px 1px purple;
+}
+span#hUp::before {
+    content: "~♬";
+    color: #7077ca;
+    font-size: 16px;
+    font-family: ocr a;
+    animation-name: rainbow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes rainbow {
+  0%   {color: #6f608a;}
+  25%  {color: #a08bc7;}
+  50%  {color: #9d7fd4;}
+  100% {color: #6f608a;}
+}
+div.topLeft::after {
+    content: "";
+    display: block;
+    position: relative;
+    width: calc(40% -20px);
+    height: 400px;
+    max-width: 450px;
+    background-position: 0 0;
+    background-size: cover;
+    background-image: url(https://media.giphy.com/media/H5NbfHDzsOiFNFAz9D/giphy.gif);
+    background-color: rgba(255, 255, 255, 0.77);
+    border: 4px solid #3a0f8a;
+    padding: 3px 3px;
+    border-radius: 10px;
+}
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur267.cur), auto !important;} /* End https://www.cursors-4u.com */
+
+/* mouse over link */
+a:hover {
+  color: lavender !important;
+}
+a:-webkit-any-link {
+    color: #a08bc7;
+    text-decoration: none;
+}
